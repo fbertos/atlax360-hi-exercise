@@ -78,10 +78,13 @@ Please notice we just want active and non deleted items.
    - ItemSource: Local if the CustomerName starts with 99
                  External in any other case
 
-4.- Please use Python pandas or petl libraries to extract the data.
+4. Please use Python pandas or petl libraries to extract the data.
 
-5.- The resulting CSV file should be in UTF-8 format and compressed with GZIP
+5. The resulting CSV file should be in UTF-8 format and compressed with GZIP
 
-6.- Please use ; as field terminator, CRLF as line terminator and " as quote field character
+6. Please use ; as field terminator, CRLF as line terminator and " as quote field character
 
+7. Each applier will need to deliver:
+  - DML sentences with any T-SQL CREATE INDEX sentence concluded
+  - A new public GIT repository for the Python solution provided
 
