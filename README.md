@@ -9,7 +9,9 @@ PRE-REQUISITES
 You will need to have installed
 
 Python 3.x
+<br>
 PIP
+<br>
 Docker
 
 
