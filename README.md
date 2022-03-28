@@ -6,13 +6,13 @@ Python exercise for ATLAX 360 IT hiring processes
 PRE-REQUISITES
 --------------
 
-You will need to have installed
+You must to have installed:
 
-Python 3.x
+Python 3.6.x
 <br>
-PIP
+PIP 21.3.x
 <br>
-Docker
+Docker 20.10.x
 
 
 
