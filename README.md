@@ -110,7 +110,7 @@ Please notice we just want active (never deleted) items.
 RESOLUTION
 ----------
 
-Each applier will need to deliver by email:
+Each applier will have to deliver by email:
   - The DDL CREATE INDEX sentences of any index potentially needed
   - A new public GIT repository for the Python solution provided
 
