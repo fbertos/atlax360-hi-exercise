@@ -23,7 +23,7 @@ DOCKER IMAGE
 In order to install our SQL Server image, you will need to run this command:
 
 ```
-docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=cmgYB2Zr4NJra2gRtGyjypag" -p 1433:1433 fbertos/mssql-atlax360-hi:2.0
+docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=cmgYB2Zr4NJra2gRtGyjypag" -p 1433:1433 fbertos/mssql-atlax360-hi:3.0
 ```
 
 Our Docker image can be found here:
