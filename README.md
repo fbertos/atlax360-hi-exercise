@@ -6,7 +6,7 @@ Python exercise for ATLAX 360 IT hiring processes
 PRE-REQUISITES
 --------------
 
-You must to have installed:
+You must have installed previously:
 
 Python 3.6.x
 <br>
