@@ -92,7 +92,7 @@ In order to achieve that, please:
   - CreateDate (format YYYY-MM-dd HH:mm:ss)
   - UpdateDate (format YYYY-MM-dd HH:mm:ss)
 
-Please notice we just want active (never deleted) items. 
+Please notice we just want active (latest version is not deleted) items. 
 
 3. We want also a column in the excel with the ItemSource calculated like:
    - ItemSource: Local if the CustomerName ends with 99
