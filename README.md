@@ -76,7 +76,7 @@ Our tables are growing up quickly and we have now some performance issues on the
 
 1. Create indexes on these tables to increase the performance
 
-2. Create a Python command line process in order to move our data from SQL Server into a CSV file to be loaded into a Datawarehouse
+2. Create a Python command line program in order to move our Item data from SQL Server into a CSV file to be loaded into a Datawarehouse (only active items)
 
 
 In order to achieve that, please:
