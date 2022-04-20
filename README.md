@@ -36,8 +36,8 @@ The SQL Server database contains two tables:
 
 Customer: this table will store our list of customers with their ID and their Name.
 
-Item: this table will store our items with their ID and their Version. There can be many Versions for the same ID, but only the last one will be the active one.
-      Also, the DeletedFlag column will tell us if the Item is Deleted.
+Item: this table will store our items with their ID and their Version. There can be many Versions for the same ID, but only the latest VersionNbr will be the active one for each item, the others will be considered old versions.
+Also, the DeletedFlag column will tell us if the Item is deleted.
       
 For example:
 ```
@@ -45,7 +45,7 @@ For example:
 + ItemId | VersionNbr | DeletedFlag +
 +      1 |          1 |           0 +
 +      1 |          2 |           0 + 
-+      1 |          3 |           1 + => This version is the only one active for Item 1, but it is deleted so we should discard all rows for Item 1
++      1 |          3 |           1 + => This version is the only one active (latest VersionNbr) for Item 1, but it is deleted so we should discard all rows for Item 1
 +-----------------------------------+
 ```
 
@@ -54,7 +54,7 @@ For example:
 + ItemId | VersionNbr | DeletedFlag +
 +      1 |          1 |           1 +
 +      1 |          2 |           1 + 
-+      1 |          3 |           0 + => This version is the only one active for Item 1 and it is active, so we should include only this row for Item 1 in our export file
++      1 |          3 |           0 + => This version is the only one active (latest VersionNbr) for Item 1 and it is active, so we should include only this row for Item 1 in our export file
 +-----------------------------------+
 ```
 
