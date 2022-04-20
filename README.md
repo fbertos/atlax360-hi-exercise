@@ -67,21 +67,21 @@ Our tables are growing up quickly and we have now some performance issues on the
 
 1. Create indexes on these tables to increase the performance
 
-2. Create a Python command line process in order to move our data from SQL Server into a CSV file to be loaded in a Datawarehouse
+2. Create a Python command line process in order to move our data from SQL Server into a CSV file to be loaded into a Datawarehouse
 
 
 In order to achieve that, please:
 
 1. Create any index you decide it is needed to increase queries performance
 
-2. Please finish the extract method of our DBExtract class with the code needed to export the following data from SQL Server into a CSV file:
+2. Please finish the extract method of our DBExtract class with the code needed to export the following data from SQL Server into a CSV file by using Pandas Python library:
   - ItemId
   - ItemDocumentNbr
   - CustomerName
   - CreateDate (format YYYY-MM-dd HH:mm:ss)
   - UpdateDate (format YYYY-MM-dd HH:mm:ss)
 
-Please notice we just want active and non deleted items. 
+Please notice we just want active (never deleted) items. 
 
 3. We want also a column in the excel with the ItemSource calculated like:
    - ItemSource: Local if the CustomerName starts with 99
@@ -96,4 +96,8 @@ Please notice we just want active and non deleted items.
 7. Each applier will need to deliver:
   - DML sentences with any T-SQL CREATE INDEX sentence concluded
   - A new public GIT repository for the Python solution provided
+
+IMPORTANT: please notice we should discard any item when their last version, and only the last version, is disabled.
+
+
 
