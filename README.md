@@ -95,8 +95,7 @@ In order to achieve that, please:
 Please notice we just want active (latest version is not deleted) items. 
 
 3. We want also a column in the excel with the ItemSource calculated like:
-   - ItemSource: "Local" if the CustomerName ends with 66 or 99
-                 "External" in any other case
+   - ItemSource: "Local" if the CustomerName ends with 66 or 99, "External" in any other case
 
 4. Please use Python pandas or petl libraries to extract the data (even though code is ready for Pandas).
 
