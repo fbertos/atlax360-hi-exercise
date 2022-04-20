@@ -38,6 +38,8 @@ Customer: this table will store our list of customers with their ID and their Na
 
 Item: this table will store our items with their ID and their Version. There can be many Versions for the same ID, but only the last one will be the active one.
       Also, the DeletedFlag column will tell us if the Item is Deleted.
+      
+For example:
 ```
 +-----------------------------------+
 + ItemId | VersionNbr | DeletedFlag +
