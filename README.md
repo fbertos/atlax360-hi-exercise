@@ -110,7 +110,7 @@ RESOLUTION
 ----------
 
 Each applier will need to deliver by email:
-  - The DDL sentences with any T-SQL CREATE INDEX sentence concluded
+  - The DDL CREATE INDEX sentences of any index potentially needed
   - A new public GIT repository for the Python solution provided
 
 A requirements.txt file is provided with the dependencies needed.
