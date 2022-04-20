@@ -29,7 +29,7 @@ docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=cmgYB2Zr4NJra2gRtGyjypag" -p 1433:
 Our Docker image can be found here:
 https://hub.docker.com/r/fbertos/mssql-atlax360-hi
 
-Once this is done, a new SQL server instance will be running locally on port 1433 (please make sure this port is available previously)
+Once this is done, a new SQL server instance will be running locally on port 1433 (please make sure this port is available in your computer)
 
 
 The SQL Server database contains two tables:
