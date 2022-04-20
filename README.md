@@ -63,7 +63,7 @@ For example:
 PYODBC
 ------
 
-Python pyodbc library is needed, please use PIP to install it and follow these guides:
+Python pyodbc library is needed, please use PIP to install it following these guides:
 
 - ODBC DRIVER 18: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017
 
