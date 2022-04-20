@@ -1,6 +1,6 @@
 # atlax360-hi-exercise
 
-Python exercise for ATLAX 360 IT hiring processes
+Python exercise for ATLAX 360 Junior Data Engineer hiring processes
 
 
 PRE-REQUISITES
