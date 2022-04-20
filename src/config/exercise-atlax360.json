@@ -1,5 +1,5 @@
 {
-	"HOST": "localhost",
+	"HOST": "127.0.0.1",
 	"PORT": 1433,
 	"DATABASE": "ATLAX360_HI_DB",
 	"USER": "SA",
