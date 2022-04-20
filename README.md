@@ -96,7 +96,7 @@ Please notice we just want active (never deleted) items.
    - ItemSource: Local if the CustomerName starts with 99
                  External in any other case
 
-4. Please use Python pandas or petl libraries to extract the data.
+4. Please use Python pandas or petl libraries to extract the data (even though code is ready for Pandas).
 
 5. The resulting CSV file should be in UTF-8 format and compressed with GZIP
 
