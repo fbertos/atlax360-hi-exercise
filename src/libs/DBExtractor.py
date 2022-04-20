@@ -1,5 +1,6 @@
 import json
 import pyodbc
+import pandas as pd
 
 class DBExtractor():
     def __init__(self, configFile: str):
@@ -27,8 +28,10 @@ class DBExtractor():
                                 ";TrustServerCertificate=Yes")
             
             # Insert your exercise code here
-            #
-            #
+            
+            # df = pd.read_sql(......, conn)
+            # df.to_csv(......)
+            
             # End of exercise
         except:
             print("error extracting data from sqlserver")
