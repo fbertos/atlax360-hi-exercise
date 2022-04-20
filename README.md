@@ -53,8 +53,10 @@ PYODBC
 ------
 
 Python pyodbc library is needed, please use PIP to install it and follow these guides:
-ODBC DRIVER: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017
-PYODBC: https://www.altaruru.com/python-sqlserver-desde-ubuntu/
+
+- ODBC DRIVER: https://docs.microsoft.com/en-us/sql/connect/odbc/linux-mac/installing-the-microsoft-odbc-driver-for-sql-server?view=sql-server-2017
+
+- PYODBC: https://www.altaruru.com/python-sqlserver-desde-ubuntu/
 
 
 
