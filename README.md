@@ -52,7 +52,7 @@ Item: this table will store our items with their ID and their Version. There can
 + ItemId | VersionNbr | DeletedFlag +
 +      1 |          1 |           1 +
 +      1 |          2 |           1 + 
-+      1 |          3 |           0 + => This version is the only one active for Item 1, so we should include only this row for Item 1 in our export file
++      1 |          3 |           0 + => This version is the only one active for Item 1 and it is active, so we should include only this row for Item 1 in our export file
 +-----------------------------------+
 ```
 
