@@ -97,6 +97,8 @@ Please notice we just want active (never deleted) items.
   - DML sentences with any T-SQL CREATE INDEX sentence concluded
   - A new public GIT repository for the Python solution provided
 
+A requirements.txt file is provided with the dependencies needed.
+
 IMPORTANT: please notice we should discard any item when their last version, and only the last version, is disabled.
 
 
