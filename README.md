@@ -102,8 +102,9 @@ Please notice we just want active (never deleted) items.
 
 6. Please use ; as field terminator, CRLF as line terminator and " as quote field character
 
-7. Each applier will need to deliver:
-  - DML sentences with any T-SQL CREATE INDEX sentence concluded
+
+Each applier will need to deliver by email:
+  - The DDL sentences with any T-SQL CREATE INDEX sentence concluded
   - A new public GIT repository for the Python solution provided
 
 A requirements.txt file is provided with the dependencies needed.
