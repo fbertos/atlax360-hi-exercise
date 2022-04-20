@@ -114,7 +114,7 @@ Each applier will need to deliver by email:
   - The DDL CREATE INDEX sentences of any index potentially needed
   - A new public GIT repository for the Python solution provided
 
-Please notice we should discard any item when their last version, and only the last version, is disabled.
+Please notice we should discard any item when their latest version is disabled.
 
 If you did your exercise correctly, the resulting CSV file should have 9.514 total rows (header included).
 
