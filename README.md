@@ -103,13 +103,19 @@ Please notice we just want active (never deleted) items.
 6. Please use ; as field terminator, CRLF as line terminator and " as quote field character
 
 
+
+RESOLUTION
+----------
+
 Each applier will need to deliver by email:
   - The DDL sentences with any T-SQL CREATE INDEX sentence concluded
   - A new public GIT repository for the Python solution provided
 
 A requirements.txt file is provided with the dependencies needed.
 
-IMPORTANT: please notice we should discard any item when their last version, and only the last version, is disabled.
+Please notice we should discard any item when their last version, and only the last version, is disabled.
+
+If you did your exercise correctly, the resulting CSV file should have 9.514 total rows (header included).
 
 
 
